@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_height="120dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="외출"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_marginTop="300dp"
+            android:id="@+id/bt_out"
+            />
+
+        <Button
+            android:layout_height="120dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="귀가"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:layout_marginTop="300dp"
+            android:id="@+id/bt_in"
+            />
+
+</LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="50dp"
+            android:text="112 신고하기"
+            android:textSize="50dp"
+            android:id="@+id/bt_112"
+            android:onClick="OnButton1"/>
+
+    </LinearLayout>
